@@ -10,7 +10,7 @@ public class Cavaller
 
     public Cavaller(int x, int y)
     {
-        _imatge = new Image("IMG/messi.png");
+        _imatge = new Image("messi.png");
         _velocitat = 3;
         _posicio = new Vector(x, y);
     }

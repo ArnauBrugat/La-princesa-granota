@@ -9,8 +9,6 @@ class Program
     private static Window _finestra = null!;
     private static Cavaller _cavaller = null!;
     private static List<Granota> _granotes = new();
-    private static 
-    
     static void Main()
     {
         Application.Run(() =>
@@ -46,7 +44,7 @@ class Program
                 }
                 else
                 {
-                    eliminar = granota
+                    eliminar = granota;
                 }
             }
             

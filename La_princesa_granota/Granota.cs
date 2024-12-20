@@ -11,10 +11,10 @@ public class Granota
 
     public Granota(bool esPrincesa)
     {
-        _imatge = new Image("IMG/balon.png");
+        _imatge = new Image("balon.png");
         _posicio = new Vector(random.Next(800 - _imatge.Width),random.Next(600 - _imatge.Height));
         EsPrincesa = esPrincesa;
-        gr
+        
     }
 
     public Rectangle Posicio()
